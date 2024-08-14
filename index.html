@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <h1>Formulaire</h1>
+    <hr>
+    <form method="get" action="">
+        <div>
+            <label for="firstname">First Name</label>: <br>
+            <input type="text" id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="lastname">Last Name</label>: <br>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div>
+            <label for="email">Email</label>: <br>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="password">Password</label>: <br>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="gender">Gender</label>: <br>
+            <input type="radio" id="gender" name="gender">Male <br>
+            <input type="radio" id="gender" name="gender">Female<br>
+            <input type="radio" id="gender" name="gender">Other<br>
+        </div>
+        <div>
+            <label for="dateofbirth">Date of birth</label>: <br>
+            <input type="date" id="dateofbirth" name="dateofbirth">
+        </div>
+        <div>
+            <label for="website">Website</label>: <br>
+            <input type="url" id="website" name="website">
+        </div>
+        <div>
+            <label for="country">Country</label>: <br>
+            <select name="country-select" id="country-select">
+                <option value="canada">CANADA</option>
+                <option value="uk">UK</option>
+                <option value="usa" selected>USA</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message</label> <br>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
